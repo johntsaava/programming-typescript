@@ -1,0 +1,25 @@
+{
+  "name": "programming-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johntsaava/programming-typescript.git"
+  },
+  "keywords": [],
+  "author": "John Tsaava <johntsaava@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johntsaava/programming-typescript/issues"
+  },
+  "homepage": "https://github.com/johntsaava/programming-typescript#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.2"
+  }
+}
