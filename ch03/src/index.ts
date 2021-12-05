@@ -18,3 +18,17 @@
 //  |_______|_______|______|______|__________|_________|_______|
 //          V
 //        never
+
+// Type aliases
+type Age = number;
+
+type Person = {
+  name: string;
+  age: Age;
+};
+
+// Union and intersection types
+type Cat = { name: string; purrs: boolean };
+type Dog = { name: string; barks: boolean; wags: boolean };
+type CatOrDogOrBoth = Cat | Dog;
+type CatAndDog = Cat & Dog;
