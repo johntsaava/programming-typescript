@@ -32,3 +32,12 @@ type Cat = { name: string; purrs: boolean };
 type Dog = { name: string; barks: boolean; wags: boolean };
 type CatOrDogOrBoth = Cat | Dog;
 type CatAndDog = Cat & Dog;
+
+// Types that mean an absence of something
+//
+// Type      Meaning
+//
+// null      Absence of a value
+// undefined Variable that has not been assigned a value yet
+// void      Function that doesn’t have a return statement
+// never     Function that never returns
