@@ -41,3 +41,13 @@ type CatAndDog = Cat & Dog;
 // undefined Variable that has not been assigned a value yet
 // void      Function that doesn’t have a return statement
 // never     Function that never returns
+
+// Exercises
+let a = 1042; // numnber
+let b = "apples and oranges"; // string
+const c = "pineapples"; // "pineapples"
+let d = [true, true, false]; // boolean[]
+let e = { type: "ficus" }; // { type: string }
+let f = [1, false]; // (number | boolean)[]
+const g = [3]; // number[]
+let h = null; // any
